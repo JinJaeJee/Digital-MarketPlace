@@ -5,7 +5,7 @@ import { useState } from "react";
 const NavItems = () => {
   const [activeIndex, setActiveIndex] = useState<null | number>(null);
 
-  return <div className="flex gap-4 h-full">NavItems</div>;
+  return <div className="flex gap-4 h-full">ZZZZZ</div>;
 };
 
 export default NavItems;
