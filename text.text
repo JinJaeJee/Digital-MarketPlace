@@ -9,3 +9,8 @@ yarn add lucide-react   ///// icon
 
 *//// trips
 shift crlt + P reload thing to fix import something
+
+npx shadcn-ui@latest add sheet //////ใช้สำหรับทำรถเข้นขายของซื้อของ
+
+
+npx shadcn-ui@latest add separator
