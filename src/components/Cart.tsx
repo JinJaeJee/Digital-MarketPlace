@@ -17,7 +17,7 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 
 const Cart = () => {
-  const itemCount = 1;
+  const itemCount = 0;
   const Fee = 0;
   const Total = 0;
   return (
@@ -64,14 +64,18 @@ const Cart = () => {
                     href="/cart"
                     className={buttonVariants({ className: "w-full" })}
                   >
-                    Continue to Checkout
+                    Continue to Checkout!!
                   </Link>
                 </SheetTrigger>
               </SheetFooter>
             </div>
           </>
         ) : (
-          <div></div>
+          <div className="flex h-full items-center justify-center space-y-1">
+            <div className="relative mb-4 w-60 h-60 hover:">
+              <Image src="/hippo-empty-cart.png" fill alt="emtpty cart" />
+            </div>
+          </div>
         )}
       </SheetContent>
     </Sheet>
